@@ -20,10 +20,10 @@ const HomePage = () => {
           >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div className="max-w-xl">
-              <h1 className="text-4xl font-bold text-green-600 sm:text-5xl md:text-6xl">
-                Experience Luxury & Comfort
-              </h1>
-              <p className="mt-4 text-xl text-white">
+            <h1 className="text-4xl text-blue-400 sm:text-5xl md:text-6xl" style={{ fontFamily: 'Courier New, monospace' }}>
+  Experience Luxury & Comfort
+</h1>
+              <p className="mt-4 text-xl text-blue-100">
                 Discover the perfect blend of elegance, comfort, and exceptional service at Serene Hotel.
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
@@ -31,7 +31,7 @@ const HomePage = () => {
                   <Button size="lg">View Rooms</Button>
                 </Link>
                 <Link to="/contact">
-                  <Button variant="outline" size="lg" className="bg-white bg-opacity-20 text-white border-white">
+                  <Button variant="outline" size="lg" className="bg-white bg-opacity-20 text-white border-green-300 hover:border-green-400">
                     Contact Us
                   </Button>
                 </Link>
@@ -98,7 +98,7 @@ const HomePage = () => {
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute top-2 right-2 bg-blue-600 text-white px-2 py-1 rounded text-sm font-medium">
-                    ${room.price}/night
+                    KSH{room.price}/night
                   </div>
                 </div>
                 <div className="p-6">
@@ -184,7 +184,7 @@ const HomePage = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-blue-200 p-6 rounded-lg shadow-sm">
               <div className="flex items-center mb-4">
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
@@ -195,16 +195,16 @@ const HomePage = () => {
               </p>
               <div className="flex items-center">
                 <div className="h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold">
-                  JD
+                  CM
                 </div>
                 <div className="ml-3">
-                  <h4 className="text-sm font-semibold text-gray-900">John Doe</h4>
+                  <h4 className="text-sm font-semibold text-gray-900">Chepwogen Mercy</h4>
                   <p className="text-sm text-gray-500">Nairobi, Kenya</p>
                 </div>
               </div>
             </div>
             
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-blue-200 p-6 rounded-lg shadow-sm">
               <div className="flex items-center mb-4">
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
@@ -215,16 +215,16 @@ const HomePage = () => {
               </p>
               <div className="flex items-center">
                 <div className="h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold">
-                  JS
+                  PO
                 </div>
                 <div className="ml-3">
-                  <h4 className="text-sm font-semibold text-gray-900">Jane Smith</h4>
+                  <h4 className="text-sm font-semibold text-gray-900">Peter Onyango</h4>
                   <p className="text-sm text-gray-500">Mombasa, Kenya</p>
                 </div>
               </div>
             </div>
             
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-blue-200 p-6 rounded-lg shadow-sm">
               <div className="flex items-center mb-4">
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
@@ -235,10 +235,10 @@ const HomePage = () => {
               </p>
               <div className="flex items-center">
                 <div className="h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold">
-                  RK
+                  NK
                 </div>
                 <div className="ml-3">
-                  <h4 className="text-sm font-semibold text-gray-900">Robert Kimani</h4>
+                  <h4 className="text-sm font-semibold text-gray-900">Nickson Kimani</h4>
                   <p className="text-sm text-gray-500">Kisumu, Kenya</p>
                 </div>
               </div>

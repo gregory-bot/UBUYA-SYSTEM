@@ -8,7 +8,7 @@ const Header = () => {
   const [isUserMenuOpen, setIsUserMenuOpen] = React.useState(false);
   
   // Mock authenticated user - in a real app, this would come from auth context
-  const user = { name: 'Kipngeno Gregory', role: 'admin' };
+  const user = { name: 'Chepkoech Carol', role: 'admin' };
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   const toggleUserMenu = () => setIsUserMenuOpen(!isUserMenuOpen);
@@ -19,8 +19,8 @@ const Header = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <Hotel className="h-8 w-8 text-green-600" />
-              <span className="ml-2 text-xl font-bold text-red-600">Serene Hotel</span>
+              <Hotel className="h-8 w-8 text-blue-600" />
+              <span className="ml-2 text-xl font-bold text-blue-600" style={{ fontFamily: 'Courier New, monospace' }}>Serene Hotel</span>
             </Link>
             <nav className="hidden md:ml-6 md:flex md:space-x-8">
               <Link to="/" className="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium">Home</Link>

@@ -4,7 +4,7 @@ import { Hotel, Phone, Mail, MapPin, Facebook, Twitter, Instagram } from 'lucide
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white">
+    <footer className="bg-blue-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
@@ -12,7 +12,7 @@ const Footer = () => {
               <Hotel className="h-8 w-8 text-blue-400" />
               <span className="ml-2 text-xl font-bold">Serene Hotel</span>
             </div>
-            <p className="mt-4 text-gray-300">
+            <p className="mt-4 text-blue-300">
               Experience luxury and comfort in the heart of Kenya. Our hotel offers premium accommodations with world-class amenities.
             </p>
             <div className="flex mt-6 space-x-4">

@@ -97,7 +97,7 @@ const ReservationForm = ({ room, onSubmit }) => {
                       message: 'Invalid email address'
                     }
                   })}
-                  placeholder="john@example.com"
+                  placeholder="kipngenogregory@gmail.com"
                 />
                 {errors.email && <p className="mt-1 text-sm text-red-600">{errors.email.message}</p>}
               </div>
@@ -107,7 +107,7 @@ const ReservationForm = ({ room, onSubmit }) => {
                 <Input
                   type="tel"
                   {...register('phone', { required: 'Phone is required' })}
-                  placeholder="+254712345678"
+                  placeholder="+254748163492"
                 />
                 {errors.phone && <p className="mt-1 text-sm text-red-600">{errors.phone.message}</p>}
               </div>
@@ -117,7 +117,7 @@ const ReservationForm = ({ room, onSubmit }) => {
               <label className="block text-sm font-medium text-gray-700 mb-1">Address</label>
               <Input
                 {...register('address', { required: 'Address is required' })}
-                placeholder="123 Main St, Nairobi"
+                placeholder="517 Uthiru, Nairobi"
               />
               {errors.address && <p className="mt-1 text-sm text-red-600">{errors.address.message}</p>}
             </div>

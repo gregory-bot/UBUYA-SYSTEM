@@ -91,17 +91,17 @@ export const rooms = [
 export const guests = [
   {
     id: '1',
-    name: 'John Doe',
+    name: 'kipngeno Gregory',
     email: 'john.doe@example.com',
-    phone: '+254712345678',
-    address: '123 Main St, Nairobi'
+    phone: '+254748163492',
+    address: 'Ruiru, Kiambu'
   },
   {
     id: '2',
-    name: 'Jane Smith',
-    email: 'jane.smith@example.com',
-    phone: '+254723456789',
-    address: '456 Park Ave, Mombasa'
+    name: 'Chepkoech Carol',
+    email: 'chepkoechcariol@gmail.com',
+    phone: '+254721685817',
+    address: '456 Uthiru, Nairobi'
   }
 ];
 
@@ -229,18 +229,18 @@ export const suppliers = [
 export const staff = [
   {
     id: '1',
-    name: 'James Omondi',
+    name: 'kiptoo Onyango',
     role: 'admin',
     username: 'james.admin',
-    email: 'james@hotelmanagement.co.ke',
+    email: 'kiptooonyango.co.ke',
     phone: '+254712345678'
   },
   {
     id: '2',
-    name: 'Mary Wanjiku',
+    name: 'Damaris Sobolo',
     role: 'staff',
     username: 'mary.staff',
-    email: 'mary@hotelmanagement.co.ke',
+    email: 'damarissobolo.co.ke',
     phone: '+254723456789'
   }
 ];
