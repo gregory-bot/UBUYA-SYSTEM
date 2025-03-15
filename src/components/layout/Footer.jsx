@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center">
               <Hotel className="h-8 w-8 text-blue-400" />
-              <span className="ml-2 text-xl font-bold">Serene Hotel</span>
+              <span className="ml-2 text-xl font-bold">Gadden-In</span>
             </div>
             <p className="mt-4 text-blue-300">
               Experience luxury and comfort in the heart of Kenya. Our hotel offers premium accommodations with world-class amenities.
@@ -54,7 +54,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-blue-400 mr-2 mt-0.5" />
-                <span className="text-gray-300">123 Hotel Street, Nairobi, Kenya</span>
+                <span className="text-gray-300">Gadden-In, Nairobi, Kenya</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-blue-400 mr-2" />
@@ -62,7 +62,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-blue-400 mr-2" />
-                <span className="text-gray-300">info@serenehotel.co.ke</span>
+                <span className="text-gray-300">info@gadden-in-hotel.co.ke</span>
               </li>
             </ul>
           </div>
@@ -87,7 +87,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400">© 2025 Serene Hotel. All rights reserved.</p>
+          <p className="text-gray-400">© 2025 Gadden-In. All rights reserved.</p>
           <div className="mt-4 md:mt-0 flex space-x-6">
             <Link to="/privacy" className="text-gray-400 hover:text-white text-sm">Privacy Policy</Link>
             <Link to="/terms" className="text-gray-400 hover:text-white text-sm">Terms of Service</Link>

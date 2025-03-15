@@ -20,7 +20,7 @@ const Header = () => {
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
               <Hotel className="h-8 w-8 text-blue-600" />
-              <span className="ml-2 text-xl font-bold text-blue-600" style={{ fontFamily: 'Courier New, monospace' }}>Serene Hotel</span>
+              <span className="ml-2 text-xl font-bold text-blue-600" style={{ fontFamily: 'Courier New, monospace' }}>Gadden-In</span>
             </Link>
             <nav className="hidden md:ml-6 md:flex md:space-x-8">
               <Link to="/" className="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium">Home</Link>

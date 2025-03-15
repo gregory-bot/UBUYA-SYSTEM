@@ -20,10 +20,10 @@ const HomePage = () => {
           >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div className="max-w-xl">
-            <h1 className="text-4xl text-blue-400 sm:text-5xl md:text-6xl" style={{ fontFamily: 'Courier New, monospace' }}>
+            <h1 className="text-4xl text-white sm:text-5xl md:text-6xl" style={{ fontFamily: 'Courier New, monospace' }}>
   Experience Luxury & Comfort
 </h1>
-              <p className="mt-4 text-xl text-blue-100">
+              <p className="mt-4 text-xl text-white">
                 Discover the perfect blend of elegance, comfort, and exceptional service at Serene Hotel.
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
